@@ -1,1 +1,22 @@
 node_modules
+.env
+
+# Terraform Files
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+
+# Crash Logs
+crash.log
+
+# Provider Binary
+.terraform/
+.terraform.lock.hcl
+
+# Local .terraform directories
+terraform.tfstate
+terraform.tfstate.*
+
+# Environment-specific files
+.terraform.env
