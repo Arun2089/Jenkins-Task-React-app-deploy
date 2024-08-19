@@ -60,7 +60,7 @@ resource "aws_lb_target_group" "jenkins_2" {
   name     = "jenkins-tg"
   port     = 8081
   protocol = "HTTP"
-  vpc_id   = vpc-0dd41e1aa1ccc4b46
+  vpc_id   = "vpc-0dd41e1aa1ccc4b46"
   
 
   tags = {
