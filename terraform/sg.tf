@@ -1,7 +1,7 @@
 resource "aws_security_group" "sg_alb_2" {
   name        = "sg_alb_2"
   description = "all traffic"
-  vpc_id      = module.vpc.vpc_id
+  vpc_id      = "vpc-0dd41e1aa1ccc4b46"
 
   ingress {
     description = "TLS from VPC"
