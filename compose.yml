@@ -1,0 +1,7 @@
+version: '3.8'
+
+services:
+  nginx:
+    image: arun2089/node-app:latest
+    ports:
+      - "80:8081"           
