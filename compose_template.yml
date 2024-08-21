@@ -4,4 +4,4 @@ services:
   nginx:
     image: ${image_name_version}
     ports:
-      - "80:8081"           
+      - "8081:80"           
