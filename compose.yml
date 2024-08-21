@@ -2,6 +2,6 @@ version: '3.8'
 
 services:
   nginx:
-    image: arun2089/node-app:latest
+    image: ${image_name_version}
     ports:
       - "80:8081"           
