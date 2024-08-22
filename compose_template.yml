@@ -2,6 +2,6 @@ version: '3.3'
 
 services:
   nginx:
-    image: ${image_name_version}
+    image: nginx
     ports:
       - "8081:80"           
