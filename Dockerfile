@@ -1,4 +1,4 @@
-FROM node as app
+FROM node:latest AS app
 WORKDIR /app
 COPY ./package.json /app
 RUN npm install 
